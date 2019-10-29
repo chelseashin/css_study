@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animated Sticky Navbar</title>
+    <link rel="stylesheet" type="text/css" href="05_style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Do+Hyeon|Jua|Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <img src="../assets/logo.png" width="28px" height="30px" alt="hifive_logo">
+          HiFive</div>
+          <ul>
+              <li><a href-"#" class="active">HiFive</a></li>
+              <li><a href-"#">Communication</a></li>
+              <li><a href-"#">LogIn</a></li>
+              <li><a href-"#">SignUp</a></li>
+          </ul>
+        </div>
+    </nav>
+    <section class="sec1"></section>
+    <section class="content">
+        <h1>만나면 반갑다고 하이파이브</h1>
+        <p>하이파이브는 철저하게 사용자 중심 서비스입니다.<br>
+        하이파이브는 보다 간편하고 빠르고 신뢰성 높은 평가서비스를 제공하는 스타트업입니다.</p>
+    </section>
+    <section class="sec2"></section>
+    <section class="content">
+        <h1>만나면 반갑다고 하이파이브</h1>
+        <p>하이파이브는 철저하게 사용자 중심 서비스입니다.<br>
+        하이파이브는 보다 간편하고 빠르고 신뢰성 높은 평가서비스를 제공하는 스타트업입니다.</p>
+    </section>
+    <section class="sec3"></section>
+</body>
+</html>
